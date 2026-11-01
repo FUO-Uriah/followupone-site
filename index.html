@@ -37,6 +37,18 @@
   .note { border-left:4px solid var(--accent); background:#fff; padding:18px 20px; border-radius:0 10px 10px 0; }
   footer { background:var(--navy); color:#bcccdc; padding:28px 0; font-size:14px; }
   footer a { color:#fff; margin-right:16px; }
+  .price { background:#fff; border:2px solid var(--navy); border-radius:14px; padding:28px; max-width:560px; }
+  .price .amt { font-size:40px; font-weight:800; color:var(--navy); letter-spacing:-1px; line-height:1.1; }
+  .price .amt small { font-size:17px; font-weight:600; color:var(--muted); letter-spacing:0; }
+  .price .setup { color:var(--muted); margin:4px 0 18px; }
+  .price ul { margin:0 0 22px; padding-left:22px; }
+  .price li { margin-bottom:6px; }
+  .report { background:#fff; border:1px solid var(--line); border-radius:12px; padding:24px; max-width:620px; }
+  .report table { width:100%; border-collapse:collapse; margin:12px 0; font-size:16px; }
+  .report td { padding:9px 0; border-bottom:1px solid var(--line); }
+  .report td:last-child { text-align:right; font-weight:700; color:var(--navy); }
+  .report tr:last-child td { border-bottom:none; }
+  .tag { display:inline-block; background:#fdf0e5; color:#a14e0b; font-size:13px; font-weight:700; padding:3px 9px; border-radius:20px; margin-bottom:8px; }
   .doc { padding-top:44px; padding-bottom:64px; max-width:760px; }
   .doc h1 { font-size:32px; color:var(--navy); margin:0 0 6px; letter-spacing:-0.5px; }
   .doc h2 { font-size:21px; margin:32px 0 10px; }
@@ -53,7 +65,7 @@
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="index.html">Follow Up <span>One</span></a>
-  <nav><a href="index.html#how">How it works</a><a href="index.html#who">Who it's for</a><a href="index.html#contact">Contact</a></nav>
+  <nav><a href="index.html#how">How it works</a><a href="index.html#who">Who it's for</a><a href="index.html#pricing">Pricing</a><a href="index.html#contact">Contact</a></nav>
 </div></header>
 
 <div class="hero"><div class="wrap">
@@ -91,6 +103,38 @@
   <h2>Done for you</h2>
   <p class="stat">No app to learn. We write your shop's questions and rules, test them, connect your phone, and keep an eye on it. Month to month, no long contract.</p>
   <p class="stat">Replies are written by an AI assistant for your shop, and it says so if a customer asks. It never quotes prices or promises arrival times. Your team does that.</p>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+  <h2>Pricing</h2>
+  <div class="price">
+    <div class="amt">$297 <small>/ month</small></div>
+    <div class="setup">+ $500 one-time setup</div>
+    <ul>
+      <li>Missed-call text-back on your business line</li>
+      <li>Questions and rules written for your shop</li>
+      <li>Monthly check-in: we read the conversations and fix what isn't working</li>
+      <li>Seasonal updates to your messages</li>
+      <li>A monthly results report: calls caught, replies, jobs won</li>
+      <li>Month to month, cancel anytime</li>
+    </ul>
+    <a class="btn" href="mailto:uriah@followupone.net?subject=Getting%20started%20with%20Follow%20Up%20One">Get started</a>
+  </div>
+</div></section>
+
+<section class="soft" id="report"><div class="wrap">
+  <h2>What you get every month</h2>
+  <p class="stat">A short report that shows what Follow Up One brought in, so you always know it's paying for itself.</p>
+  <div class="report">
+    <span class="tag">Sample report</span>
+    <table>
+      <tr><td>Missed calls texted back</td><td>38</td></tr>
+      <tr><td>Callers who replied</td><td>22</td></tr>
+      <tr><td>Jobs won (confirmed by your team)</td><td>14</td></tr>
+      <tr><td>Estimated revenue (14 jobs × $400 average)</td><td>$5,600</td></tr>
+    </table>
+    <p class="small" style="margin:0">Sample numbers for illustration only. Your results depend on your call volume and job size.</p>
+  </div>
 </div></section>
 
 <section id="texts"><div class="wrap">
